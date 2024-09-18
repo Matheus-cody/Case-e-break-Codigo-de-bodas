@@ -1,0 +1,36 @@
+package aula2;
+import java.util.Scanner;
+public class Bodas {
+
+	public static void main(String[] args) {
+		
+Scanner SC = new Scanner(System.in);
+int anos;
+System.out.println("Digite o tempo para calcular as bodas: ");
+anos = SC.nextInt();
+
+switch(anos) 	
+		{
+			case 1: System.out.println("Bodas de papel"); 
+			 		break; 
+			case 10: System.out.println("Bodas de Estanho");
+					break;
+			case 20: System.out.println("Bodas de Porcelana");
+			 		break;
+			case 30: System.out.println("Bodas de Pérola");
+			       	break;
+			case 40: System.out.println("Bodas de Esmeralda");
+					break;
+			case 50: System.out.println("Bodas de Ouro");
+			
+			default: System.out.println("Não sei informar");
+					break;
+			
+
+
+
+
+		}
+	
+	}
+}	
